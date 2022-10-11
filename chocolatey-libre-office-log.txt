@@ -1,0 +1,436 @@
+2022-10-11 14:39:56,514 15296 [DEBUG] - XmlConfiguration is now operational
+2022-10-11 14:39:56,537 15296 [INFO ] - ============================================================
+2022-10-11 14:39:56,639 15296 [INFO ] - Chocolatey v1.1.0
+2022-10-11 14:39:56,643 15296 [DEBUG] - Chocolatey is running on Windows v 10.0.19044.0
+2022-10-11 14:39:56,644 15296 [DEBUG] - Attempting to delete file "C:/ProgramData/chocolatey/choco.exe.old".
+2022-10-11 14:39:56,645 15296 [DEBUG] - Attempting to delete file "C:\ProgramData\chocolatey\choco.exe.old".
+2022-10-11 14:39:56,651 15296 [DEBUG] - Command line: "C:\ProgramData\chocolatey\choco.exe" install libreoffice-fresh
+2022-10-11 14:39:56,652 15296 [DEBUG] - Received arguments: install libreoffice-fresh
+2022-10-11 14:39:56,677 15296 [DEBUG] - RemovePendingPackagesTask is now ready and waiting for PreRunMessage.
+2022-10-11 14:39:56,681 15296 [DEBUG] - Sending message 'PreRunMessage' out if there are subscribers...
+2022-10-11 14:39:56,684 15296 [DEBUG] - [Pending] Removing all pending packages that should not be considered installed...
+2022-10-11 14:39:56,711 15296 [DEBUG] - Performing validation checks.
+2022-10-11 14:39:56,714 15296 [DEBUG] - Global Configuration Validation Checks:
+2022-10-11 14:39:56,715 15296 [DEBUG] -  - Package Exit Code / Exit On Reboot = Checked
+2022-10-11 14:39:56,716 15296 [DEBUG] - System State Validation Checks:
+2022-10-11 14:39:56,718 15296 [DEBUG] -  Reboot Requirement Checks:
+2022-10-11 14:39:56,719 15296 [DEBUG] -  - Pending Computer Rename = Checked
+2022-10-11 14:39:56,720 15296 [DEBUG] -  - Pending Component Based Servicing = Checked
+2022-10-11 14:39:56,721 15296 [DEBUG] -  - Pending Windows Auto Update = Checked
+2022-10-11 14:39:56,722 15296 [DEBUG] -  - Pending File Rename Operations = Ignored
+2022-10-11 14:39:56,723 15296 [DEBUG] -  - Pending Windows Package Installer = Checked
+2022-10-11 14:39:56,724 15296 [DEBUG] -  - Pending Windows Package Installer SysWow64 = Checked
+2022-10-11 14:39:56,727 15296 [INFO ] - 2 validations performed. 2 success(es), 0 warning(s), and 0 error(s).
+2022-10-11 14:39:56,728 15296 [DEBUG] - The source 'https://community.chocolatey.org/api/v2/' evaluated to a 'normal' source type
+2022-10-11 14:39:56,729 15296 [DEBUG] - 
+NOTE: Hiding sensitive configuration data! Please double and triple
+ check to be sure no sensitive data is shown, especially if copying
+ output to a gist for review.
+2022-10-11 14:39:56,734 15296 [DEBUG] - Configuration: CommandName='install'|
+CacheLocation='C:\Users\tomasz.michnik\AppData\Local\Temp\chocolatey'|
+ContainsLegacyPackageInstalls='True'|
+CommandExecutionTimeoutSeconds='2700'|WebRequestTimeoutSeconds='30'|
+Sources='https://community.chocolatey.org/api/v2/'|SourceType='normal'|
+Debug='False'|Verbose='False'|Trace='False'|Force='False'|Noop='False'|
+HelpRequested='False'|UnsuccessfulParsing='False'|RegularOutput='True'|
+QuietOutput='False'|PromptForConfirmation='True'|
+DisableCompatibilityChecks='False'|AcceptLicense='False'|
+AllowUnofficialBuild='False'|Input='libreoffice-fresh'|
+AllVersions='False'|SkipPackageInstallProvider='False'|
+PackageNames='libreoffice-fresh'|Prerelease='False'|ForceX86='False'|
+OverrideArguments='False'|NotSilent='False'|
+ApplyPackageParametersToDependencies='False'|
+ApplyInstallArgumentsToDependencies='False'|IgnoreDependencies='False'|
+AllowMultipleVersions='False'|AllowDowngrade='False'|
+ForceDependencies='False'|Information.PlatformType='Windows'|
+Information.PlatformVersion='10.0.19044.0'|
+Information.PlatformName='Windows 10'|
+Information.ChocolateyVersion='1.1.0.0'|
+Information.ChocolateyProductVersion='1.1.0'|
+Information.FullName='choco, Version=1.1.0.0, Culture=neutral, PublicKeyToken=79d02ea9cad655eb'|
+
+Information.Is64BitOperatingSystem='True'|
+Information.Is64BitProcess='True'|Information.IsInteractive='True'|
+Information.UserName='tomasz.michnik'|Information.UserDomainName='ALZ'|
+Information.IsUserAdministrator='True'|
+Information.IsUserSystemAccount='False'|
+Information.IsUserRemoteDesktop='False'|
+Information.IsUserRemote='True'|
+Information.IsProcessElevated='True'|
+Information.IsLicensedVersion='False'|Information.LicenseType='Foss'|
+Information.CurrentDirectory='C:\windows\system32'|
+Features.AutoUninstaller='True'|Features.ChecksumFiles='True'|
+Features.AllowEmptyChecksums='False'|
+Features.AllowEmptyChecksumsSecure='True'|
+Features.FailOnAutoUninstaller='False'|
+Features.FailOnStandardError='False'|Features.UsePowerShellHost='True'|
+Features.LogEnvironmentValues='False'|Features.LogWithoutColor='False'|
+Features.VirusCheck='False'|
+Features.FailOnInvalidOrMissingLicense='False'|
+Features.IgnoreInvalidOptionsSwitches='True'|
+Features.UsePackageExitCodes='True'|
+Features.UseEnhancedExitCodes='False'|
+Features.UseFipsCompliantChecksums='False'|
+Features.ShowNonElevatedWarnings='True'|
+Features.ShowDownloadProgress='True'|
+Features.StopOnFirstPackageFailure='False'|
+Features.UseRememberedArgumentsForUpgrades='False'|
+Features.IgnoreUnfoundPackagesOnUpgradeOutdated='False'|
+Features.SkipPackageUpgradesWhenNotInstalled='False'|
+Features.RemovePackageInformationOnUninstall='False'|
+Features.ExitOnRebootDetected='False'|
+Features.LogValidationResultsOnWarnings='True'|
+Features.UsePackageRepositoryOptimizations='True'|
+ListCommand.LocalOnly='False'|ListCommand.IdOnly='False'|
+ListCommand.IncludeRegistryPrograms='False'|ListCommand.PageSize='25'|
+ListCommand.Exact='False'|ListCommand.ByIdOnly='False'|
+ListCommand.ByTagOnly='False'|ListCommand.IdStartsWith='False'|
+ListCommand.OrderByPopularity='False'|ListCommand.ApprovedOnly='False'|
+ListCommand.DownloadCacheAvailable='False'|
+ListCommand.NotBroken='False'|
+ListCommand.IncludeVersionOverrides='False'|
+UpgradeCommand.FailOnUnfound='False'|
+UpgradeCommand.FailOnNotInstalled='False'|
+UpgradeCommand.NotifyOnlyAvailableUpgrades='False'|
+UpgradeCommand.ExcludePrerelease='False'|
+NewCommand.AutomaticPackage='False'|
+NewCommand.UseOriginalTemplate='False'|SourceCommand.Command='unknown'|
+SourceCommand.Priority='0'|SourceCommand.BypassProxy='False'|
+SourceCommand.AllowSelfService='False'|
+SourceCommand.VisibleToAdminsOnly='False'|
+FeatureCommand.Command='unknown'|ConfigCommand.Command='unknown'|
+ApiKeyCommand.Remove='False'|PinCommand.Command='unknown'|
+OutdatedCommand.IgnorePinned='False'|
+ExportCommand.IncludeVersionNumbers='False'|Proxy.BypassOnLocal='True'|
+TemplateCommand.Command='unknown'|
+2022-10-11 14:39:56,735 15296 [DEBUG] - _ Chocolatey:ChocolateyInstallCommand - Normal Run Mode _
+2022-10-11 14:39:56,738 15296 [INFO ] - Installing the following packages:
+2022-10-11 14:39:56,739 15296 [INFO ] - libreoffice-fresh
+2022-10-11 14:39:56,740 15296 [INFO ] - By installing, you accept licenses for the packages.
+2022-10-11 14:39:56,787 15296 [DEBUG] - Using 'https://community.chocolatey.org/api/v2/'.
+2022-10-11 14:39:57,316 15296 [DEBUG] - - Supports prereleases? 'True'.
+2022-10-11 14:39:57,316 15296 [DEBUG] - - Is ServiceBased? 'True'.
+2022-10-11 14:39:57,553 15296 [DEBUG] - Package 'libreoffice-fresh' found on source 'https://community.chocolatey.org/api/v2/'
+2022-10-11 14:39:57,582 15296 [INFO ] - [NuGet] Attempting to resolve dependency 'kb2919355 (? 1.0.20160915)'.
+2022-10-11 14:39:57,621 15296 [INFO ] - [NuGet] Attempting to resolve dependency 'KB2919442 (? 1.0.20160915)'.
+2022-10-11 14:39:58,765 15296 [INFO ] - [NuGet] Installing 'libreoffice-fresh 7.4.1'.
+2022-10-11 14:39:58,768 15296 [DEBUG] - [NuGet] Added file 'chocolateyInstall.ps1' to folder 'libreoffice-fresh\tools'.
+2022-10-11 14:39:58,769 15296 [DEBUG] - [NuGet] Added file 'helpers.ps1' to folder 'libreoffice-fresh\tools'.
+2022-10-11 14:39:58,772 15296 [DEBUG] - [NuGet] Added file 'libreoffice-fresh.nupkg' to folder 'libreoffice-fresh'.
+2022-10-11 14:39:59,004 15296 [DEBUG] - [NuGet] Added file 'libreoffice-fresh.nuspec' to folder 'libreoffice-fresh'.
+2022-10-11 14:39:59,005 15296 [INFO ] - [NuGet] Successfully installed 'libreoffice-fresh 7.4.1'.
+2022-10-11 14:39:59,007 15296 [INFO ] - 
+libreoffice-fresh v7.4.1 [Approved]
+2022-10-11 14:39:59,013 15296 [INFO ] - libreoffice-fresh package files install completed. Performing other installation steps.
+2022-10-11 14:39:59,074 15296 [DEBUG] - Setting installer args for libreoffice-fresh
+2022-10-11 14:39:59,075 15296 [DEBUG] - Setting package parameters for libreoffice-fresh
+2022-10-11 14:39:59,076 15296 [DEBUG] - Contents of 'C:\ProgramData\chocolatey\lib\libreoffice-fresh\tools\chocolateyInstall.ps1':
+2022-10-11 14:39:59,082 15296 [DEBUG] - $ErrorActionPreference = 'Stop'
+
+$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+. $toolsDir\helpers.ps1
+
+$packageArgs = @{
+  packageName            = 'libreoffice-fresh'
+  version                = '7.4.1'
+  fileType               = 'msi'
+  url                    = 'https://download.documentfoundation.org/libreoffice/stable/7.4.1/win/x86/LibreOffice_7.4.1_Win_x86.msi'
+  url64bit               = 'https://download.documentfoundation.org/libreoffice/stable/7.4.1/win/x86_64/LibreOffice_7.4.1_Win_x64.msi'
+  checksum               = 'e69fc9201a91201740c6e191eeb57e2c1a9a61aad4e263c7f94e0bfdec4e8b53'
+  checksum64             = 'd18c8f92dd2446687e3f6632831b34284f399dd4dde2b7d22585f3596cc2e2cb'
+  checksumType           = 'sha256'
+  checksumType64         = 'sha256'
+  silentArgs             = '/qn /passive /norestart /l*v "{0}"' -f "$($env:TEMP)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).MsiInstall.log"
+  validExitCodes         = @(0,3010)
+  softwareName           = 'LibreOffice*'
+}
+
+if (-not (IsUrlValid $packageArgs.url)) {
+  $exactVersion = GetLibOExactVersion $packageArgs.version
+  $packageArgs.url = $exactVersion.Url32
+  $packageArgs.url64bit = $exactVersion.Url64
+}
+
+Install-ChocolateyPackage @packageArgs
+
+2022-10-11 14:39:59,082 15296 [INFO ] - The package libreoffice-fresh wants to run 'chocolateyInstall.ps1'.
+2022-10-11 14:39:59,084 15296 [INFO ] - Note: If you don't run this script, the installation will fail.
+2022-10-11 14:39:59,085 15296 [INFO ] - Note: To confirm automatically next time, use '-y' or consider:
+2022-10-11 14:39:59,086 15296 [INFO ] - choco feature enable -n allowGlobalConfirmation
+2022-10-11 14:39:59,096 15296 [INFO ] - Do you want to run the script?
+2022-10-11 14:39:59,096 15296 [INFO ] -  1) yes
+2022-10-11 14:39:59,098 15296 [INFO ] -  2) all - yes to all
+2022-10-11 14:39:59,099 15296 [INFO ] -  3) no
+2022-10-11 14:39:59,100 15296 [INFO ] -  4) print
+2022-10-11 14:40:00,597 15296 [INFO ] - Choice selected: 'yes'
+2022-10-11 14:40:00,608 15296 [DEBUG] - Calling built-in PowerShell host with ['[System.Threading.Thread]::CurrentThread.CurrentCulture = '';[System.Threading.Thread]::CurrentThread.CurrentUICulture = ''; & import-module -name 'C:\ProgramData\chocolatey\helpers\chocolateyInstaller.psm1'; & 'C:\ProgramData\chocolatey\helpers\chocolateyScriptRunner.ps1' -packageScript 'C:\ProgramData\chocolatey\lib\libreoffice-fresh\tools\chocolateyInstall.ps1' -installArguments '' -packageParameters ''']
+2022-10-11 14:40:00,609 15296 [DEBUG] - Redirecting System.Management.Automation.resources, Version=3.0.0.0, Culture=cs-CZ, PublicKeyToken=31bf3856ad364e35, requested by ''
+2022-10-11 14:40:00,717 15296 [DEBUG] - Host version is 5.1.19041.1, PowerShell Version is '5.1.19041.1682' and CLR Version is '4.0.30319.42000'.
+2022-10-11 14:40:00,901 15296 [INFO ] - VERBOSE: Exporting function 'Format-FileSize'.
+2022-10-11 14:40:00,902 15296 [INFO ] - VERBOSE: Exporting function 'Get-ChecksumValid'.
+2022-10-11 14:40:00,903 15296 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyUnzip'.
+2022-10-11 14:40:00,904 15296 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyWebFile'.
+2022-10-11 14:40:00,905 15296 [INFO ] - VERBOSE: Exporting function 'Get-EnvironmentVariable'.
+2022-10-11 14:40:00,907 15296 [INFO ] - VERBOSE: Exporting function 'Get-EnvironmentVariableNames'.
+2022-10-11 14:40:00,908 15296 [INFO ] - VERBOSE: Exporting function 'Get-FtpFile'.
+2022-10-11 14:40:00,909 15296 [INFO ] - VERBOSE: Exporting function 'Get-OSArchitectureWidth'.
+2022-10-11 14:40:00,910 15296 [INFO ] - VERBOSE: Exporting function 'Get-PackageParameters'.
+2022-10-11 14:40:00,911 15296 [INFO ] - VERBOSE: Exporting function 'Get-PackageParametersBuiltIn'.
+2022-10-11 14:40:00,912 15296 [INFO ] - VERBOSE: Exporting function 'Get-ToolsLocation'.
+2022-10-11 14:40:00,913 15296 [INFO ] - VERBOSE: Exporting function 'Get-UACEnabled'.
+2022-10-11 14:40:00,914 15296 [INFO ] - VERBOSE: Exporting function 'Get-UninstallRegistryKey'.
+2022-10-11 14:40:00,915 15296 [INFO ] - VERBOSE: Exporting function 'Get-VirusCheckValid'.
+2022-10-11 14:40:00,916 15296 [INFO ] - VERBOSE: Exporting function 'Get-WebFile'.
+2022-10-11 14:40:00,917 15296 [INFO ] - VERBOSE: Exporting function 'Get-WebFileName'.
+2022-10-11 14:40:00,918 15296 [INFO ] - VERBOSE: Exporting function 'Get-WebHeaders'.
+2022-10-11 14:40:00,919 15296 [INFO ] - VERBOSE: Exporting function 'Install-BinFile'.
+2022-10-11 14:40:00,920 15296 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyEnvironmentVariable'.
+2022-10-11 14:40:00,921 15296 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyExplorerMenuItem'.
+2022-10-11 14:40:00,922 15296 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyFileAssociation'.
+2022-10-11 14:40:00,924 15296 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyInstallPackage'.
+2022-10-11 14:40:00,925 15296 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPackage'.
+2022-10-11 14:40:00,926 15296 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPath'.
+2022-10-11 14:40:00,927 15296 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPinnedTaskBarItem'.
+2022-10-11 14:40:00,928 15296 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPowershellCommand'.
+2022-10-11 14:40:00,929 15296 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyShortcut'.
+2022-10-11 14:40:00,930 15296 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyVsixPackage'.
+2022-10-11 14:40:00,931 15296 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyZipPackage'.
+2022-10-11 14:40:00,932 15296 [INFO ] - VERBOSE: Exporting function 'Install-Vsix'.
+2022-10-11 14:40:00,933 15296 [INFO ] - VERBOSE: Exporting function 'Set-EnvironmentVariable'.
+2022-10-11 14:40:00,934 15296 [INFO ] - VERBOSE: Exporting function 'Set-PowerShellExitCode'.
+2022-10-11 14:40:00,935 15296 [INFO ] - VERBOSE: Exporting function 'Start-ChocolateyProcessAsAdmin'.
+2022-10-11 14:40:00,937 15296 [INFO ] - VERBOSE: Exporting function 'Test-ProcessAdminRights'.
+2022-10-11 14:40:00,938 15296 [INFO ] - VERBOSE: Exporting function 'Uninstall-BinFile'.
+2022-10-11 14:40:00,939 15296 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyEnvironmentVariable'.
+2022-10-11 14:40:00,940 15296 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyPackage'.
+2022-10-11 14:40:00,941 15296 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyZipPackage'.
+2022-10-11 14:40:00,942 15296 [INFO ] - VERBOSE: Exporting function 'Update-SessionEnvironment'.
+2022-10-11 14:40:00,943 15296 [INFO ] - VERBOSE: Exporting function 'Write-FunctionCallLogMessage'.
+2022-10-11 14:40:00,944 15296 [INFO ] - VERBOSE: Exporting alias 'Get-ProcessorBits'.
+2022-10-11 14:40:00,945 15296 [INFO ] - VERBOSE: Exporting alias 'Get-OSBitness'.
+2022-10-11 14:40:00,946 15296 [INFO ] - VERBOSE: Exporting alias 'Get-InstallRegistryKey'.
+2022-10-11 14:40:00,947 15296 [INFO ] - VERBOSE: Exporting alias 'Generate-BinFile'.
+2022-10-11 14:40:00,948 15296 [INFO ] - VERBOSE: Exporting alias 'Add-BinFile'.
+2022-10-11 14:40:00,950 15296 [INFO ] - VERBOSE: Exporting alias 'Start-ChocolateyProcess'.
+2022-10-11 14:40:00,951 15296 [INFO ] - VERBOSE: Exporting alias 'Invoke-ChocolateyProcess'.
+2022-10-11 14:40:00,952 15296 [INFO ] - VERBOSE: Exporting alias 'Remove-BinFile'.
+2022-10-11 14:40:00,953 15296 [INFO ] - VERBOSE: Exporting alias 'refreshenv'.
+2022-10-11 14:40:00,958 15296 [DEBUG] - Loading community extensions
+2022-10-11 14:40:00,962 15296 [DEBUG] - Importing 'C:\ProgramData\chocolatey\extensions\chocolatey-compatibility\chocolatey-compatibility.psm1'
+2022-10-11 14:40:00,963 15296 [INFO ] - VERBOSE: Loading module from path 'C:\ProgramData\chocolatey\extensions\chocolatey-compatibility\chocolatey-compatibility.psm1'.
+2022-10-11 14:40:00,981 15296 [DEBUG] - Function 'Get-PackageParameters' exists, ignoring export.
+2022-10-11 14:40:00,981 15296 [DEBUG] - Function 'Get-UninstallRegistryKey' exists, ignoring export.
+2022-10-11 14:40:00,983 15296 [DEBUG] - Exporting function 'Install-ChocolateyDesktopLink' for backwards compatibility
+2022-10-11 14:40:00,986 15296 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyDesktopLink'.
+2022-10-11 14:40:00,987 15296 [DEBUG] - Exporting function 'Write-ChocolateyFailure' for backwards compatibility
+2022-10-11 14:40:00,989 15296 [INFO ] - VERBOSE: Exporting function 'Write-ChocolateyFailure'.
+2022-10-11 14:40:00,990 15296 [DEBUG] - Exporting function 'Write-ChocolateySuccess' for backwards compatibility
+2022-10-11 14:40:00,993 15296 [INFO ] - VERBOSE: Exporting function 'Write-ChocolateySuccess'.
+2022-10-11 14:40:00,993 15296 [DEBUG] - Exporting function 'Write-FileUpdateLog' for backwards compatibility
+2022-10-11 14:40:00,996 15296 [INFO ] - VERBOSE: Exporting function 'Write-FileUpdateLog'.
+2022-10-11 14:40:00,996 15296 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyDesktopLink'.
+2022-10-11 14:40:00,997 15296 [INFO ] - VERBOSE: Importing function 'Write-ChocolateyFailure'.
+2022-10-11 14:40:00,998 15296 [INFO ] - VERBOSE: Importing function 'Write-ChocolateySuccess'.
+2022-10-11 14:40:00,999 15296 [INFO ] - VERBOSE: Importing function 'Write-FileUpdateLog'.
+2022-10-11 14:40:01,001 15296 [DEBUG] - Importing 'C:\ProgramData\chocolatey\extensions\chocolatey-core\chocolatey-core.psm1'
+2022-10-11 14:40:01,002 15296 [INFO ] - VERBOSE: Loading module from path 'C:\ProgramData\chocolatey\extensions\chocolatey-core\chocolatey-core.psm1'.
+2022-10-11 14:40:01,040 15296 [INFO ] - VERBOSE: Exporting function 'Get-AppInstallLocation'.
+2022-10-11 14:40:01,040 15296 [INFO ] - VERBOSE: Exporting function 'Get-AvailableDriveLetter'.
+2022-10-11 14:40:01,042 15296 [INFO ] - VERBOSE: Exporting function 'Get-EffectiveProxy'.
+2022-10-11 14:40:01,043 15296 [INFO ] - VERBOSE: Exporting function 'Get-PackageCacheLocation'.
+2022-10-11 14:40:01,044 15296 [INFO ] - VERBOSE: Exporting function 'Get-WebContent'.
+2022-10-11 14:40:01,045 15296 [INFO ] - VERBOSE: Exporting function 'Register-Application'.
+2022-10-11 14:40:01,046 15296 [INFO ] - VERBOSE: Exporting function 'Remove-Process'.
+2022-10-11 14:40:01,047 15296 [INFO ] - VERBOSE: Importing function 'Get-AppInstallLocation'.
+2022-10-11 14:40:01,048 15296 [INFO ] - VERBOSE: Importing function 'Get-AvailableDriveLetter'.
+2022-10-11 14:40:01,049 15296 [INFO ] - VERBOSE: Importing function 'Get-EffectiveProxy'.
+2022-10-11 14:40:01,050 15296 [INFO ] - VERBOSE: Importing function 'Get-PackageCacheLocation'.
+2022-10-11 14:40:01,051 15296 [INFO ] - VERBOSE: Importing function 'Get-WebContent'.
+2022-10-11 14:40:01,052 15296 [INFO ] - VERBOSE: Importing function 'Register-Application'.
+2022-10-11 14:40:01,053 15296 [INFO ] - VERBOSE: Importing function 'Remove-Process'.
+2022-10-11 14:40:01,055 15296 [DEBUG] - Importing 'C:\ProgramData\chocolatey\extensions\chocolatey-font-helpers\FontHelp.psm1'
+2022-10-11 14:40:01,056 15296 [INFO ] - VERBOSE: Loading module from path 'C:\ProgramData\chocolatey\extensions\chocolatey-font-helpers\FontHelp.psm1'.
+2022-10-11 14:40:01,067 15296 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyFont'.
+2022-10-11 14:40:01,067 15296 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyFont'.
+2022-10-11 14:40:01,068 15296 [INFO ] - VERBOSE: Exporting alias 'Add-Font'.
+2022-10-11 14:40:01,070 15296 [INFO ] - VERBOSE: Exporting alias 'Remove-Font'.
+2022-10-11 14:40:01,071 15296 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyFont'.
+2022-10-11 14:40:01,072 15296 [INFO ] - VERBOSE: Importing function 'Uninstall-ChocolateyFont'.
+2022-10-11 14:40:01,073 15296 [INFO ] - VERBOSE: Importing alias 'Add-Font'.
+2022-10-11 14:40:01,074 15296 [INFO ] - VERBOSE: Importing alias 'Remove-Font'.
+2022-10-11 14:40:01,075 15296 [DEBUG] - Importing 'C:\ProgramData\chocolatey\extensions\chocolatey-windowsupdate\chocolatey-windowsupdate.psm1'
+2022-10-11 14:40:01,076 15296 [INFO ] - VERBOSE: Loading module from path 'C:\ProgramData\chocolatey\extensions\chocolatey-windowsupdate\chocolatey-windowsupdate.psm1'.
+2022-10-11 14:40:01,111 15296 [INFO ] - VERBOSE: Exporting function 'Install-WindowsUpdate'.
+2022-10-11 14:40:01,112 15296 [INFO ] - VERBOSE: Exporting function 'Test-WindowsUpdate'.
+2022-10-11 14:40:01,113 15296 [INFO ] - VERBOSE: Importing function 'Install-WindowsUpdate'.
+2022-10-11 14:40:01,114 15296 [INFO ] - VERBOSE: Importing function 'Test-WindowsUpdate'.
+2022-10-11 14:40:01,116 15296 [INFO ] - VERBOSE: Exporting function 'Format-FileSize'.
+2022-10-11 14:40:01,117 15296 [INFO ] - VERBOSE: Exporting function 'Get-ChecksumValid'.
+2022-10-11 14:40:01,118 15296 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyUnzip'.
+2022-10-11 14:40:01,119 15296 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyWebFile'.
+2022-10-11 14:40:01,120 15296 [INFO ] - VERBOSE: Exporting function 'Get-EnvironmentVariable'.
+2022-10-11 14:40:01,121 15296 [INFO ] - VERBOSE: Exporting function 'Get-EnvironmentVariableNames'.
+2022-10-11 14:40:01,122 15296 [INFO ] - VERBOSE: Exporting function 'Get-FtpFile'.
+2022-10-11 14:40:01,123 15296 [INFO ] - VERBOSE: Exporting function 'Get-OSArchitectureWidth'.
+2022-10-11 14:40:01,124 15296 [INFO ] - VERBOSE: Exporting function 'Get-PackageParameters'.
+2022-10-11 14:40:01,125 15296 [INFO ] - VERBOSE: Exporting function 'Get-PackageParametersBuiltIn'.
+2022-10-11 14:40:01,127 15296 [INFO ] - VERBOSE: Exporting function 'Get-ToolsLocation'.
+2022-10-11 14:40:01,128 15296 [INFO ] - VERBOSE: Exporting function 'Get-UACEnabled'.
+2022-10-11 14:40:01,129 15296 [INFO ] - VERBOSE: Exporting function 'Get-UninstallRegistryKey'.
+2022-10-11 14:40:01,130 15296 [INFO ] - VERBOSE: Exporting function 'Get-VirusCheckValid'.
+2022-10-11 14:40:01,131 15296 [INFO ] - VERBOSE: Exporting function 'Get-WebFile'.
+2022-10-11 14:40:01,132 15296 [INFO ] - VERBOSE: Exporting function 'Get-WebFileName'.
+2022-10-11 14:40:01,133 15296 [INFO ] - VERBOSE: Exporting function 'Get-WebHeaders'.
+2022-10-11 14:40:01,134 15296 [INFO ] - VERBOSE: Exporting function 'Install-BinFile'.
+2022-10-11 14:40:01,135 15296 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyEnvironmentVariable'.
+2022-10-11 14:40:01,136 15296 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyExplorerMenuItem'.
+2022-10-11 14:40:01,137 15296 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyFileAssociation'.
+2022-10-11 14:40:01,139 15296 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyInstallPackage'.
+2022-10-11 14:40:01,140 15296 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPackage'.
+2022-10-11 14:40:01,141 15296 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPath'.
+2022-10-11 14:40:01,142 15296 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPinnedTaskBarItem'.
+2022-10-11 14:40:01,143 15296 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPowershellCommand'.
+2022-10-11 14:40:01,144 15296 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyShortcut'.
+2022-10-11 14:40:01,145 15296 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyVsixPackage'.
+2022-10-11 14:40:01,146 15296 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyZipPackage'.
+2022-10-11 14:40:01,147 15296 [INFO ] - VERBOSE: Exporting function 'Install-Vsix'.
+2022-10-11 14:40:01,148 15296 [INFO ] - VERBOSE: Exporting function 'Set-EnvironmentVariable'.
+2022-10-11 14:40:01,149 15296 [INFO ] - VERBOSE: Exporting function 'Set-PowerShellExitCode'.
+2022-10-11 14:40:01,150 15296 [INFO ] - VERBOSE: Exporting function 'Start-ChocolateyProcessAsAdmin'.
+2022-10-11 14:40:01,151 15296 [INFO ] - VERBOSE: Exporting function 'Test-ProcessAdminRights'.
+2022-10-11 14:40:01,152 15296 [INFO ] - VERBOSE: Exporting function 'Uninstall-BinFile'.
+2022-10-11 14:40:01,153 15296 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyEnvironmentVariable'.
+2022-10-11 14:40:01,155 15296 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyPackage'.
+2022-10-11 14:40:01,156 15296 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyZipPackage'.
+2022-10-11 14:40:01,157 15296 [INFO ] - VERBOSE: Exporting function 'Update-SessionEnvironment'.
+2022-10-11 14:40:01,158 15296 [INFO ] - VERBOSE: Exporting function 'Write-FunctionCallLogMessage'.
+2022-10-11 14:40:01,159 15296 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyDesktopLink'.
+2022-10-11 14:40:01,160 15296 [INFO ] - VERBOSE: Exporting function 'Write-ChocolateyFailure'.
+2022-10-11 14:40:01,161 15296 [INFO ] - VERBOSE: Exporting function 'Write-ChocolateySuccess'.
+2022-10-11 14:40:01,167 15296 [INFO ] - VERBOSE: Exporting function 'Write-FileUpdateLog'.
+2022-10-11 14:40:01,168 15296 [INFO ] - VERBOSE: Exporting function 'Get-AppInstallLocation'.
+2022-10-11 14:40:01,169 15296 [INFO ] - VERBOSE: Exporting function 'Get-AvailableDriveLetter'.
+2022-10-11 14:40:01,170 15296 [INFO ] - VERBOSE: Exporting function 'Get-EffectiveProxy'.
+2022-10-11 14:40:01,171 15296 [INFO ] - VERBOSE: Exporting function 'Get-PackageCacheLocation'.
+2022-10-11 14:40:01,173 15296 [INFO ] - VERBOSE: Exporting function 'Get-WebContent'.
+2022-10-11 14:40:01,174 15296 [INFO ] - VERBOSE: Exporting function 'Register-Application'.
+2022-10-11 14:40:01,175 15296 [INFO ] - VERBOSE: Exporting function 'Remove-Process'.
+2022-10-11 14:40:01,176 15296 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyFont'.
+2022-10-11 14:40:01,177 15296 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyFont'.
+2022-10-11 14:40:01,178 15296 [INFO ] - VERBOSE: Exporting function 'Install-WindowsUpdate'.
+2022-10-11 14:40:01,179 15296 [INFO ] - VERBOSE: Exporting function 'Test-WindowsUpdate'.
+2022-10-11 14:40:01,180 15296 [INFO ] - VERBOSE: Exporting alias 'Get-ProcessorBits'.
+2022-10-11 14:40:01,181 15296 [INFO ] - VERBOSE: Exporting alias 'Get-OSBitness'.
+2022-10-11 14:40:01,182 15296 [INFO ] - VERBOSE: Exporting alias 'Get-InstallRegistryKey'.
+2022-10-11 14:40:01,183 15296 [INFO ] - VERBOSE: Exporting alias 'Generate-BinFile'.
+2022-10-11 14:40:01,184 15296 [INFO ] - VERBOSE: Exporting alias 'Add-BinFile'.
+2022-10-11 14:40:01,185 15296 [INFO ] - VERBOSE: Exporting alias 'Start-ChocolateyProcess'.
+2022-10-11 14:40:01,186 15296 [INFO ] - VERBOSE: Exporting alias 'Invoke-ChocolateyProcess'.
+2022-10-11 14:40:01,188 15296 [INFO ] - VERBOSE: Exporting alias 'Remove-BinFile'.
+2022-10-11 14:40:01,189 15296 [INFO ] - VERBOSE: Exporting alias 'refreshenv'.
+2022-10-11 14:40:01,190 15296 [INFO ] - VERBOSE: Exporting alias 'Add-Font'.
+2022-10-11 14:40:01,191 15296 [INFO ] - VERBOSE: Exporting alias 'Remove-Font'.
+2022-10-11 14:40:01,192 15296 [INFO ] - VERBOSE: Importing function 'Format-FileSize'.
+2022-10-11 14:40:01,193 15296 [INFO ] - VERBOSE: Importing function 'Get-AppInstallLocation'.
+2022-10-11 14:40:01,194 15296 [INFO ] - VERBOSE: Importing function 'Get-AvailableDriveLetter'.
+2022-10-11 14:40:01,195 15296 [INFO ] - VERBOSE: Importing function 'Get-ChecksumValid'.
+2022-10-11 14:40:01,196 15296 [INFO ] - VERBOSE: Importing function 'Get-ChocolateyUnzip'.
+2022-10-11 14:40:01,197 15296 [INFO ] - VERBOSE: Importing function 'Get-ChocolateyWebFile'.
+2022-10-11 14:40:01,199 15296 [INFO ] - VERBOSE: Importing function 'Get-EffectiveProxy'.
+2022-10-11 14:40:01,200 15296 [INFO ] - VERBOSE: Importing function 'Get-EnvironmentVariable'.
+2022-10-11 14:40:01,201 15296 [INFO ] - VERBOSE: Importing function 'Get-EnvironmentVariableNames'.
+2022-10-11 14:40:01,202 15296 [INFO ] - VERBOSE: Importing function 'Get-FtpFile'.
+2022-10-11 14:40:01,203 15296 [INFO ] - VERBOSE: Importing function 'Get-OSArchitectureWidth'.
+2022-10-11 14:40:01,204 15296 [INFO ] - VERBOSE: Importing function 'Get-PackageCacheLocation'.
+2022-10-11 14:40:01,205 15296 [INFO ] - VERBOSE: Importing function 'Get-PackageParameters'.
+2022-10-11 14:40:01,206 15296 [INFO ] - VERBOSE: Importing function 'Get-PackageParametersBuiltIn'.
+2022-10-11 14:40:01,207 15296 [INFO ] - VERBOSE: Importing function 'Get-ToolsLocation'.
+2022-10-11 14:40:01,208 15296 [INFO ] - VERBOSE: Importing function 'Get-UACEnabled'.
+2022-10-11 14:40:01,209 15296 [INFO ] - VERBOSE: Importing function 'Get-UninstallRegistryKey'.
+2022-10-11 14:40:01,210 15296 [INFO ] - VERBOSE: Importing function 'Get-VirusCheckValid'.
+2022-10-11 14:40:01,212 15296 [INFO ] - VERBOSE: Importing function 'Get-WebContent'.
+2022-10-11 14:40:01,213 15296 [INFO ] - VERBOSE: Importing function 'Get-WebFile'.
+2022-10-11 14:40:01,214 15296 [INFO ] - VERBOSE: Importing function 'Get-WebFileName'.
+2022-10-11 14:40:01,215 15296 [INFO ] - VERBOSE: Importing function 'Get-WebHeaders'.
+2022-10-11 14:40:01,216 15296 [INFO ] - VERBOSE: Importing function 'Install-BinFile'.
+2022-10-11 14:40:01,217 15296 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyDesktopLink'.
+2022-10-11 14:40:01,218 15296 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyEnvironmentVariable'.
+2022-10-11 14:40:01,219 15296 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyExplorerMenuItem'.
+2022-10-11 14:40:01,220 15296 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyFileAssociation'.
+2022-10-11 14:40:01,221 15296 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyFont'.
+2022-10-11 14:40:01,222 15296 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyInstallPackage'.
+2022-10-11 14:40:01,223 15296 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPackage'.
+2022-10-11 14:40:01,224 15296 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPath'.
+2022-10-11 14:40:01,225 15296 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPinnedTaskBarItem'.
+2022-10-11 14:40:01,226 15296 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPowershellCommand'.
+2022-10-11 14:40:01,227 15296 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyShortcut'.
+2022-10-11 14:40:01,228 15296 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyVsixPackage'.
+2022-10-11 14:40:01,229 15296 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyZipPackage'.
+2022-10-11 14:40:01,230 15296 [INFO ] - VERBOSE: Importing function 'Install-Vsix'.
+2022-10-11 14:40:01,232 15296 [INFO ] - VERBOSE: Importing function 'Install-WindowsUpdate'.
+2022-10-11 14:40:01,233 15296 [INFO ] - VERBOSE: Importing function 'Register-Application'.
+2022-10-11 14:40:01,234 15296 [INFO ] - VERBOSE: Importing function 'Remove-Process'.
+2022-10-11 14:40:01,235 15296 [INFO ] - VERBOSE: Importing function 'Set-EnvironmentVariable'.
+2022-10-11 14:40:01,236 15296 [INFO ] - VERBOSE: Importing function 'Set-PowerShellExitCode'.
+2022-10-11 14:40:01,237 15296 [INFO ] - VERBOSE: Importing function 'Start-ChocolateyProcessAsAdmin'.
+2022-10-11 14:40:01,238 15296 [INFO ] - VERBOSE: Importing function 'Test-ProcessAdminRights'.
+2022-10-11 14:40:01,239 15296 [INFO ] - VERBOSE: Importing function 'Test-WindowsUpdate'.
+2022-10-11 14:40:01,240 15296 [INFO ] - VERBOSE: Importing function 'Uninstall-BinFile'.
+2022-10-11 14:40:01,241 15296 [INFO ] - VERBOSE: Importing function 'Uninstall-ChocolateyEnvironmentVariable'.
+2022-10-11 14:40:01,242 15296 [INFO ] - VERBOSE: Importing function 'Uninstall-ChocolateyFont'.
+2022-10-11 14:40:01,243 15296 [INFO ] - VERBOSE: Importing function 'Uninstall-ChocolateyPackage'.
+2022-10-11 14:40:01,244 15296 [INFO ] - VERBOSE: Importing function 'Uninstall-ChocolateyZipPackage'.
+2022-10-11 14:40:01,246 15296 [INFO ] - VERBOSE: Importing function 'Update-SessionEnvironment'.
+2022-10-11 14:40:01,247 15296 [INFO ] - VERBOSE: Importing function 'Write-ChocolateyFailure'.
+2022-10-11 14:40:01,248 15296 [INFO ] - VERBOSE: Importing function 'Write-ChocolateySuccess'.
+2022-10-11 14:40:01,249 15296 [INFO ] - VERBOSE: Importing function 'Write-FileUpdateLog'.
+2022-10-11 14:40:01,250 15296 [INFO ] - VERBOSE: Importing function 'Write-FunctionCallLogMessage'.
+2022-10-11 14:40:01,251 15296 [INFO ] - VERBOSE: Importing alias 'Add-BinFile'.
+2022-10-11 14:40:01,252 15296 [INFO ] - VERBOSE: Importing alias 'Add-Font'.
+2022-10-11 14:40:01,253 15296 [INFO ] - VERBOSE: Importing alias 'Generate-BinFile'.
+2022-10-11 14:40:01,254 15296 [INFO ] - VERBOSE: Importing alias 'Get-InstallRegistryKey'.
+2022-10-11 14:40:01,255 15296 [INFO ] - VERBOSE: Importing alias 'Get-OSBitness'.
+2022-10-11 14:40:01,256 15296 [INFO ] - VERBOSE: Importing alias 'Get-ProcessorBits'.
+2022-10-11 14:40:01,257 15296 [INFO ] - VERBOSE: Importing alias 'Invoke-ChocolateyProcess'.
+2022-10-11 14:40:01,258 15296 [INFO ] - VERBOSE: Importing alias 'refreshenv'.
+2022-10-11 14:40:01,259 15296 [INFO ] - VERBOSE: Importing alias 'Remove-BinFile'.
+2022-10-11 14:40:01,260 15296 [INFO ] - VERBOSE: Importing alias 'Remove-Font'.
+2022-10-11 14:40:01,262 15296 [INFO ] - VERBOSE: Importing alias 'Start-ChocolateyProcess'.
+2022-10-11 14:40:01,278 15296 [DEBUG] - ---------------------------Script Execution---------------------------
+2022-10-11 14:40:01,279 15296 [DEBUG] - Running 'ChocolateyScriptRunner' for libreoffice-fresh v7.4.1 with packageScript 'C:\ProgramData\chocolatey\lib\libreoffice-fresh\tools\chocolateyInstall.ps1', packageFolder:'C:\ProgramData\chocolatey\lib\libreoffice-fresh', installArguments: '', packageParameters: '',
+2022-10-11 14:40:01,283 15296 [DEBUG] - Running 'C:\ProgramData\chocolatey\lib\libreoffice-fresh\tools\chocolateyInstall.ps1'
+2022-10-11 14:40:01,340 15296 [ERROR] - ERROR: Exception calling "GetResponse" with "0" argument(s): "The remote server returned an error: (407) Proxy Authentication Required."
+2022-10-11 14:40:01,343 15296 [DEBUG] - Built-in PowerShell host called with ['[System.Threading.Thread]::CurrentThread.CurrentCulture = '';[System.Threading.Thread]::CurrentThread.CurrentUICulture = ''; & import-module -name 'C:\ProgramData\chocolatey\helpers\chocolateyInstaller.psm1'; & 'C:\ProgramData\chocolatey\helpers\chocolateyScriptRunner.ps1' -packageScript 'C:\ProgramData\chocolatey\lib\libreoffice-fresh\tools\chocolateyInstall.ps1' -installArguments '' -packageParameters '''] exited with '-1'.
+2022-10-11 14:40:01,345 15296 [DEBUG] - Calling command ['"C:\windows\System32\shutdown.exe" /a']
+2022-10-11 14:40:01,380 15296 [DEBUG] - Command ['"C:\windows\System32\shutdown.exe" /a'] exited with '1116'
+2022-10-11 14:40:01,438 15296 [DEBUG] - Capturing package files in 'C:\ProgramData\chocolatey\lib\libreoffice-fresh'
+2022-10-11 14:40:01,439 15296 [DEBUG] -  Found 'C:\ProgramData\chocolatey\lib\libreoffice-fresh\libreoffice-fresh.nupkg'
+  with checksum '2D0E4ECA504EDD26CCE7637EEAF0CA4D'
+2022-10-11 14:40:01,440 15296 [DEBUG] -  Found 'C:\ProgramData\chocolatey\lib\libreoffice-fresh\libreoffice-fresh.nuspec'
+  with checksum 'D384D6178D9FAE91528897F4ED28811E'
+2022-10-11 14:40:01,441 15296 [DEBUG] -  Found 'C:\ProgramData\chocolatey\lib\libreoffice-fresh\tools\chocolateyInstall.ps1'
+  with checksum '6246E405CD62F7006A6EDB9FB4CC9E84'
+2022-10-11 14:40:01,442 15296 [DEBUG] -  Found 'C:\ProgramData\chocolatey\lib\libreoffice-fresh\tools\helpers.ps1'
+  with checksum 'A944DCAB901C451C28092715629DB3DB'
+2022-10-11 14:40:01,451 15296 [DEBUG] - Attempting to delete file "C:\ProgramData\chocolatey\.chocolatey\libreoffice-fresh.7.4.1\.arguments".
+2022-10-11 14:40:01,451 15296 [DEBUG] - Attempting to delete file "C:\ProgramData\chocolatey\.chocolatey\libreoffice-fresh.7.4.1\.extra".
+2022-10-11 14:40:01,453 15296 [DEBUG] - Attempting to delete file "C:\ProgramData\chocolatey\.chocolatey\libreoffice-fresh.7.4.1\.version".
+2022-10-11 14:40:01,454 15296 [DEBUG] - Attempting to delete file "C:\ProgramData\chocolatey\.chocolatey\libreoffice-fresh.7.4.1\.sxs".
+2022-10-11 14:40:01,455 15296 [DEBUG] - Attempting to delete file "C:\ProgramData\chocolatey\.chocolatey\libreoffice-fresh.7.4.1\.pin".
+2022-10-11 14:40:01,459 15296 [DEBUG] - Attempting to delete directory "C:\ProgramData\chocolatey\lib-bad\libreoffice-fresh".
+2022-10-11 14:40:01,461 15296 [DEBUG] - Sending message 'HandlePackageResultCompletedMessage' out if there are subscribers...
+2022-10-11 14:40:01,462 15296 [ERROR] - The install of libreoffice-fresh was NOT successful.
+2022-10-11 14:40:01,464 15296 [ERROR] - Error while running 'C:\ProgramData\chocolatey\lib\libreoffice-fresh\tools\chocolateyInstall.ps1'.
+ See log for details.
+2022-10-11 14:40:01,466 15296 [DEBUG] - Moving 'C:\ProgramData\chocolatey\lib\libreoffice-fresh'
+ to 'C:\ProgramData\chocolatey\lib-bad\libreoffice-fresh'
+2022-10-11 14:40:03,483 15296 [DEBUG] - Attempting to delete file "C:\Users\tomasz.michnik\AppData\Local\NuGet\Cache\libreoffice-fresh.7.4.1.nupkg".
+2022-10-11 14:40:03,488 15296 [WARN ] - 
+Chocolatey installed 0/1 packages. 1 packages failed.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+2022-10-11 14:40:03,490 15296 [INFO ] - 
+2022-10-11 14:40:03,491 15296 [ERROR] - Failures
+2022-10-11 14:40:03,493 15296 [ERROR] -  - libreoffice-fresh (exited -1) - Error while running 'C:\ProgramData\chocolatey\lib\libreoffice-fresh\tools\chocolateyInstall.ps1'.
+ See log for details.
+2022-10-11 14:40:03,494 15296 [DEBUG] - Sending message 'PostRunMessage' out if there are subscribers...
+2022-10-11 14:40:03,510 15296 [DEBUG] - Exiting with -1
